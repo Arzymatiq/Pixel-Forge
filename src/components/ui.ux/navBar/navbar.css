@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+
+.main__navbar__block-center {
+    position: sticky;
+    top: 0;
+    z-index: 500; /* Значение может быть любым, лишь бы было выше, чем у .header_img */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.main__navbar__block {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+.center__NavBar__block {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.center__NavBar__block_list {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.center__NavBar__block_item {
+    cursor: pointer;
+}
+.right__NavBar__block {
+    display: flex;
+}
+.right__NavBar__block_list {
+    display: flex;
+    justify-content: space-between;
+}
+.right__NavBar__block_item {
+    width: 20px;
+    cursor: pointer;
+}
